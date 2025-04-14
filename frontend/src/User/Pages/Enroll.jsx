@@ -12,7 +12,7 @@ import EnrollIntro from "../Components/EnrollIntro";
  
 const Enroll = () => {
      const [fileList, setFileList] = useState([]);
-      const backendURI = "http://localhost:7000";
+      const backendURI = "https://backend-v1bd.onrender.com";
       const handleFileChange = ({ fileList: newFileList }) => setFileList(newFileList);
 
 
