@@ -9,7 +9,7 @@ import DisplaySingleBlog from "../Components/DisplaySingleBlog";
 
 const Blogs = () => {
   const [blogs, setBlogs] = useState([]);
-  const backendURI = "http://localhost:7000";
+  const backendURI = "https://backend-v1bd.onrender.com";
   const navigate = useNavigate();
   const location = useLocation();
 
