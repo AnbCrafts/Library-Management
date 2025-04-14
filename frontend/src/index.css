@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Parkinsans:wght@300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: "Montserrat", serif;
+    /* background-color: #ffdbcc; */
+    
+}
+.book-list li{
+    margin-top: 5px;
+    padding-top: 5px;
+    font-weight: 400;
+    color: #333;
+}
+.userHomeBottom {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(34, 34, 34, 0.8)), url('assets/frontImage.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+.bestSales{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(34, 34, 34, 0.8)), url('assets/bestSalesBg.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}  
+ .clip-hexagon {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  }
+
+  .authorCard:hover .authorCardOverlay{
+    bottom: 0;
+    transition: all .4s ease;
+
+  }
+  .authorCardOverlay{
+    transition: all .9s ease;
+
+  }
+
+  .banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.216), rgba(34, 34, 34, 0.278)), url('assets/banner2.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+
+  .animation {
+    animation: upDown 1.5s infinite ease-in-out alternate;
+  }
+  .animation_2 {
+    animation: upDown 2s infinite ease-in-out alternate;
+  }
+  .animation_3 {
+    animation: upDown 2.5s infinite ease-in-out alternate;
+  }
+  
+  @keyframes upDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-20px);
+    }
+  }
+
+
+  .fade-in {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  .fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.9s ease-in, transform 0.6s ease-out;
+
+  }
+  
+  

@@ -1,0 +1,54 @@
+.explore-card {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .explore-card-content {
+    z-index: 1;
+    text-align: center;
+    padding: 10px;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+  
+  .explore-card-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transform: scale(0);
+    transition: transform 0.5s ease;
+  }
+  .explore-card-img button{
+    position: absolute;
+    padding: 5px 15px;
+    font-size: 1rem;
+    background-color: #f48657;
+    color: #fff;
+    border: none;
+    outline: none;
+  }
+  .explore-card-img button:hover{
+    background-color: #fff;
+    color: #555;
+  }
+  
+  .explore-card:hover .explore-card-content {
+    opacity: 0;
+  }
+  
+  .explore-card:hover .explore-card-img {
+    transform: scale(1);
+  }
+  
+  .explore-card-img img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
