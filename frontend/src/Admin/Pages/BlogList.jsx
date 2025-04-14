@@ -9,7 +9,7 @@ import IntroHead from '../../GlobalComponents/IntroHead';
 
 const BlogList = () => {
   const [blogs, setBlogs] = useState([]);
-  const backendURI = "http://localhost:7000";
+  const backendURI = "https://backend-v1bd.onrender.com";
   const navigate = useNavigate();
   const location = useLocation();
   const {adminId} = useParams();
