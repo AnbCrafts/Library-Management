@@ -20,7 +20,7 @@ import Books from './User/Pages/Books';
 import Blogs from './User/Pages/Blogs';
 import About from './User/Pages/About';
 import Contact from './User/Pages/Contact';
-import Help from './User/Pages/help';
+import Help from './User/Pages/Help';
 import Dashboard from './User/Pages/Dashboard';
 import WarningPage from './User/Components/LoginWarning';
 import DisplaySingleBook from './User/Components/DisplaySingleBook';
