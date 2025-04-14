@@ -9,7 +9,7 @@ import IntroHead from "../../GlobalComponents/IntroHead";
 
 const BookList = () => {
   const [books, setBooks] = useState([]);
-  const backendURI = "http://localhost:7000";
+  const backendURI = "https://backend-v1bd.onrender.com";
 
   const navigate = useNavigate();
   const location = useLocation();
