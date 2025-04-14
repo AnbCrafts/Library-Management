@@ -10,7 +10,7 @@ import { useNavigate, useParams } from "react-router-dom";
 const AddBlog = () => {
   const [coverImgList, setCoverImgList] = useState([]);
   const [authorImgList, setAuthorImgList] = useState([]);
-  const backendURI = "http://localhost:7000";
+  const backendURI = "https://backend-v1bd.onrender.com";
   const navigate = useNavigate();
   const { adminId } = useParams(); 
  
