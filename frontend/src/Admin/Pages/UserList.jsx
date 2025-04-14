@@ -8,7 +8,7 @@ import { assets } from "../../assets/assets";
 import IntroHead from "../../GlobalComponents/IntroHead";
 
 const UserList = () => {
-  const backendURI = "http://localhost:7000";
+  const backendURI = "https://backend-v1bd.onrender.com";
 
   const [userList, setUserList] = useState([]);
   const [borrowings, setBorrowings] = useState([]);
