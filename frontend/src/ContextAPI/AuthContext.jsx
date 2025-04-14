@@ -11,7 +11,7 @@ export const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
 
-  const backendURI = "http://localhost:7000";
+  const backendURI = "https://backend-v1bd.onrender.com";
   const [direct , setDirect] = useState();
 
   const [loggedInUser, setLoggedInUser] = useState(false);
