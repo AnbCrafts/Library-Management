@@ -9,7 +9,7 @@ import { AuthContext } from "../../ContextAPI/AuthContext";
 import { jwtDecode } from "jwt-decode";
 
 const LoginAdmin = () => {
-  const backendURI = "http://localhost:7000";
+  const backendURI = "https://backend-v1bd.onrender.com";
   const navigate = useNavigate();
     const { token, setToken , loggedInAdminData, setLoggedInAdminData} = useContext(AuthContext);
   
